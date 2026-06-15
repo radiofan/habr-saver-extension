@@ -44,7 +44,7 @@
 		},
 		cleanElements(){
 			for(el of document.querySelectorAll("div.header-banner-wrapper")){ el.remove();}
-			for(el of document.querySelectorAll("header")){ el.remove();}
+			for(el of document.querySelectorAll("header.tm-header.tm-header.tm-header_with-feature")){ el.remove();}
 			for(el of document.querySelectorAll("div.tm-footer-menu")){ el.remove();}
 			for(el of document.querySelectorAll("div.tm-footer")){ el.remove();}
 			for(el of document.querySelectorAll("#overlays")){ el.remove();}
@@ -55,6 +55,7 @@
 				el.remove();
 			}
 			for(el of document.querySelectorAll("div.tm-article-presenter__footer section.tm-block.tm-block_spacing-around")){ el.remove();}
+			for(el of document.querySelectorAll("div.container-wrapper div.inner.single-banner")){ el.remove();}
 			for(el of document.querySelectorAll("div.tm-article-presenter__footer div.tm-project-block.tm-project-block--courses")){ el.remove();}
 			for(el of document.querySelectorAll("div.tm-article-presenter__footer div.tm-project-block.tm-project-block--salary")){ el.remove();}
 			for(el of document.querySelectorAll("script")){ el.remove();}
