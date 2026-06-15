@@ -1,0 +1,26 @@
+{
+	"manifest_version": 3,
+	"name": "Habr title saver",
+	"version": "1.0",
+	"description": "Prepare habr title for saving by pdf or html. by RADIOFAN",
+	
+	"icons": {
+		"32": "favicon-32.png"
+	},
+
+	"permissions": [
+		"activeTab",
+		"scripting"
+	],
+	"host_permissions": [
+		"https://habr.com/*"
+	],
+
+	"action": {
+		"default_title": "Prepare page"
+	},
+
+	"background": {
+		"service_worker": "background.js"
+	}
+}
