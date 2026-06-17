@@ -95,6 +95,7 @@
 			document.querySelector("div.tm-article-presenter__footer").style.margin = "0";
 			document.querySelector("div.tm-article-presenter__footer").style.maxWidth = "10000px";
 			document.querySelector("div.tm-page__main_has-sidebar").style.maxWidth = "10000px";
+			for(el of document.querySelectorAll(".article-formatted-body pre code")){ el.style.whiteSpace = "break-spaces"; el.style.wordBreak = "break-word";}
 		}
 	};
 })();
