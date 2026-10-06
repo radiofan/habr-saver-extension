@@ -49,7 +49,10 @@
 			for(el of document.querySelectorAll("#overlays")){ el.remove();}
 			for(el of document.querySelectorAll("div.container-wrapper div.inner.single-banner")){ el.remove();}
 			for(el of document.querySelectorAll("div.tm-page__sidebar")){ el.remove();}
-			
+			for(el of document.querySelectorAll("div.tm-page__header")){ el.remove();}
+			for(el of document.querySelectorAll("div.tm-company-profile-card.tm-company-article__profile-card")){ el.remove();}
+			for(el of document.querySelectorAll("div.article-snippet .publication-snippet-controls.controls .source-craft-summary-button")){ el.remove();}
+
 			// comments
 			for(el of document.querySelectorAll("#publication-comments div.tm-comment-form")){ el.remove();}
 			for(el of document.querySelectorAll("#publication-comments div.tm-comment-navigation.tm-comment-navigation__block.tm-comment-navigation__has-new_reverse")){ el.remove();}
@@ -80,7 +83,8 @@
 			for(el of document.querySelectorAll("div.sponsor-block")){ el.remove();}
 			for(el of document.querySelectorAll("div.article-poll-container > div.article-poll > div.tm-notice.tm-notice_positive.notice")){ el.remove();}
 			for(el of document.querySelectorAll("div.digest-subscription")){ el.remove();}
-			
+			for(el of document.querySelectorAll("div.tm-pack-preview")){ el.remove();}
+
 			
 			// styling
 			for(el of document.querySelectorAll("details > summary")){ el.style.display ="none";}
@@ -96,6 +100,7 @@
 			document.querySelector("div.tm-article-presenter__footer").style.maxWidth = "10000px";
 			document.querySelector("div.tm-page__main_has-sidebar").style.maxWidth = "10000px";
 			for(el of document.querySelectorAll(".article-formatted-body pre code")){ el.style.whiteSpace = "break-spaces"; el.style.wordBreak = "break-word";}
+			for(el of document.querySelectorAll("div.article-sticky-panel > div.tm-data-icons.tm-data-icons.tm-data-icons_space-big.icons")){ el.style.maxWidth = "95%";}
 		}
 	};
 })();
